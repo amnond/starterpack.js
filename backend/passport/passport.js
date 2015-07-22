@@ -1,5 +1,5 @@
 var passport      = require('passport'),
-bcrypt            = require('bcrypt'),
+bcrypt            = require('bcryptjs'),
 async             = require('async'),
 LocalStrategy     = require('passport-local').Strategy,
 GoogleStrategy    = require('passport-google-oauth').OAuth2Strategy,

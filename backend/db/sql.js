@@ -7,9 +7,9 @@ module.exports = function(){
 	 */
 	sql = {
 		'name':'starterpack',
-		'user': 'root',
+		'user': 'user',
 		'host': '127.0.0.1',
-		'password': 'password',
+		'password': 'pass',
 	};
 
 	sql.db = mysql.createConnection({

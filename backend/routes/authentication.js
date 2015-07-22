@@ -1,5 +1,5 @@
 var auth = require('../passport/passport'),
-bcrypt	 = require('bcrypt'),
+bcrypt	 = require('bcryptjs'),
 User 	 = require('../db/sql').User,
 async	 = require('async'),
 passport = require('passport');
